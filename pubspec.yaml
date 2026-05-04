@@ -1,0 +1,36 @@
+name: my_profile
+description: A Flutter profile app with DevicePreview
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/profile.jpeg
+    - assets/images/icon12.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/icon12.png
+
+  adaptive_icon_foreground: assets/images/icon12.png
+  adaptive_icon_background: "#ffffff"
